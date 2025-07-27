@@ -1,12 +1,11 @@
 #include <cmath>
-#include <numbers>
 #include <unordered_map>
 
 #include "easing.h"
 
 using namespace std;
 
-constexpr double pi = numbers::pi;
+constexpr double pi = 3.14159265358979312;
 constexpr double c1 = 1.70158;
 constexpr double c2 = c1 * 1.525;
 constexpr double c3 = c1 + 1;
